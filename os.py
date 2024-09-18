@@ -2,7 +2,7 @@ import os
 
     def list_directory_contents(path):
         # first we want the function to print all files
-        return os.listdir(path)
+        print(os.listdir(path))
         #use this function to access files deeper into a decision tree
         print(os.walk(path))
         #generate all path files
