@@ -8,7 +8,7 @@ import os
         #generate all path files
         return pathlib
             try : 
-                print(os.ttyname(r))  
+                print(os.ttyname(path))  
                 except OSError as error : 
                     print(error) 
                     print("File descriptor is not associated with any terminal device") 
