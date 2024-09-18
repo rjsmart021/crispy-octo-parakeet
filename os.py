@@ -4,9 +4,9 @@ import os
         # first we want the function to print all files
         return os.listdir(path)
         #use this function to access files deeper into a decision tree
-        return os.walk(path)
+        print(os.walk(path))
         #generate all path files
-        return pathlib
+        print(pathlib)
             try : 
                 print(os.ttyname(path))  
                 except OSError as error : 
